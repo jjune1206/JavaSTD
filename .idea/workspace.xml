@@ -5,12 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a0b2d7d4-646a-4d49-a270-df5719fc31a4" name="Changes" comment="Collection Framework">
-      <change afterPath="$PROJECT_DIR$/src/ch11/ArrayListEx1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch11/ArrayListEx2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch11/MyVector.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch11/VectorEx1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch2/VarEx1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch2/VarEx2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch11/ArrayListLinkedListTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch11/ExpValidCheck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch11/IteratorEx1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch11/MyStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch11/PriorityQueueEx.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch11/QueueEx1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch11/StackEx1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -65,26 +66,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.ArrayListEx1.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ArrayListEx2.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.VarEx1.executor&quot;: &quot;Run&quot;,
-    &quot;Application.VarEx2.executor&quot;: &quot;Run&quot;,
-    &quot;Application.VectorEx1.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;E:/IdeaProjects/JavaSTD/src/Main.java&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.ArrayListEx1.executor": "Run",
+    "Application.ArrayListEx2.executor": "Run",
+    "Application.ArrayListLinkedListTest.executor": "Run",
+    "Application.ExpValidCheck.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.PriorityQueueEx.executor": "Run",
+    "Application.QueueEx1.executor": "Run",
+    "Application.StackEx1.executor": "Run",
+    "Application.VarEx1.executor": "Run",
+    "Application.VarEx2.executor": "Run",
+    "Application.VectorEx1.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "onboarding.tips.debug.path": "E:/IdeaProjects/JavaSTD/src/Main.java",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
   }
-}</component>
-  <component name="RunManager" selected="Application.VectorEx1">
-    <configuration name="ArrayListEx1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ch11.ArrayListEx1" />
+}]]></component>
+  <component name="RunManager" selected="Application.IteratorEx1">
+    <configuration name="ExpValidCheck" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ch11.ExpValidCheck" />
       <module name="JavaSTD" />
       <extension name="coverage">
         <pattern>
@@ -96,8 +102,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ArrayListEx2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ch11.ArrayListEx2" />
+    <configuration name="IteratorEx1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ch11.IteratorEx1" />
       <module name="JavaSTD" />
       <extension name="coverage">
         <pattern>
@@ -109,12 +115,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VarEx1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ch2.VarEx1" />
+    <configuration name="PriorityQueueEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ch11.PriorityQueueEx" />
       <module name="JavaSTD" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ch2.*" />
+          <option name="PATTERN" value="ch11.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -122,12 +128,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VarEx2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ch2.VarEx2" />
+    <configuration name="QueueEx1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ch11.QueueEx1" />
       <module name="JavaSTD" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ch2.*" />
+          <option name="PATTERN" value="ch11.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -135,8 +141,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VectorEx1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ch11.VectorEx1" />
+    <configuration name="StackEx1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ch11.StackEx1" />
       <module name="JavaSTD" />
       <extension name="coverage">
         <pattern>
@@ -150,11 +156,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.VectorEx1" />
-        <item itemvalue="Application.ArrayListEx2" />
-        <item itemvalue="Application.ArrayListEx1" />
-        <item itemvalue="Application.VarEx2" />
-        <item itemvalue="Application.VarEx1" />
+        <item itemvalue="Application.IteratorEx1" />
+        <item itemvalue="Application.PriorityQueueEx" />
+        <item itemvalue="Application.QueueEx1" />
+        <item itemvalue="Application.ExpValidCheck" />
+        <item itemvalue="Application.StackEx1" />
       </list>
     </recent_temporary>
   </component>
@@ -198,7 +204,15 @@
       <option name="project" value="LOCAL" />
       <updated>1702613660889</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Collection Framework">
+      <option name="closed" value="true" />
+      <created>1703039803747</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1703039803747</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
