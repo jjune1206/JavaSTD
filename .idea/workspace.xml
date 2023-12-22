@@ -4,14 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a0b2d7d4-646a-4d49-a270-df5719fc31a4" name="Changes" comment="Collection Framework">
-      <change afterPath="$PROJECT_DIR$/src/ch11/ArrayListLinkedListTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch11/ExpValidCheck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch11/IteratorEx1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch11/MyStack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch11/PriorityQueueEx.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch11/QueueEx1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch11/StackEx1.java" afterDir="false" />
+    <list default="true" id="a0b2d7d4-646a-4d49-a270-df5719fc31a4" name="Changes" comment="Collection Framework #2">
+      <change afterPath="$PROJECT_DIR$/src/ch11/ArraysEx.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch11/Bingo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch11/ComparatorEx.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch11/IteratorEx2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch11/ListIteratorEx1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch11/MyVector2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch11/MyVector2Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch11/Person2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch11/Person2Ex1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -71,8 +73,16 @@
     "Application.ArrayListEx1.executor": "Run",
     "Application.ArrayListEx2.executor": "Run",
     "Application.ArrayListLinkedListTest.executor": "Run",
+    "Application.ArraysEx.executor": "Run",
+    "Application.Bingo.executor": "Run",
+    "Application.ComparatorEx.executor": "Run",
     "Application.ExpValidCheck.executor": "Run",
+    "Application.IteratorEx1.executor": "Run",
+    "Application.IteratorEx2.executor": "Run",
+    "Application.ListIteratorEx1.executor": "Run",
     "Application.Main.executor": "Run",
+    "Application.MyVector2Test.executor": "Run",
+    "Application.Person2Ex1.executor": "Run",
     "Application.PriorityQueueEx.executor": "Run",
     "Application.QueueEx1.executor": "Run",
     "Application.StackEx1.executor": "Run",
@@ -88,9 +98,9 @@
     "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.IteratorEx1">
-    <configuration name="ExpValidCheck" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ch11.ExpValidCheck" />
+  <component name="RunManager" selected="Application.Person2Ex1">
+    <configuration name="ArraysEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ch11.ArraysEx" />
       <module name="JavaSTD" />
       <extension name="coverage">
         <pattern>
@@ -102,8 +112,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IteratorEx1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ch11.IteratorEx1" />
+    <configuration name="Bingo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ch11.Bingo" />
       <module name="JavaSTD" />
       <extension name="coverage">
         <pattern>
@@ -115,8 +125,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PriorityQueueEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ch11.PriorityQueueEx" />
+    <configuration name="ComparatorEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ch11.ComparatorEx" />
       <module name="JavaSTD" />
       <extension name="coverage">
         <pattern>
@@ -128,8 +138,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QueueEx1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ch11.QueueEx1" />
+    <configuration name="MyVector2Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ch11.MyVector2Test" />
       <module name="JavaSTD" />
       <extension name="coverage">
         <pattern>
@@ -141,8 +151,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StackEx1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ch11.StackEx1" />
+    <configuration name="Person2Ex1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ch11.Person2Ex1" />
       <module name="JavaSTD" />
       <extension name="coverage">
         <pattern>
@@ -156,11 +166,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.IteratorEx1" />
-        <item itemvalue="Application.PriorityQueueEx" />
-        <item itemvalue="Application.QueueEx1" />
-        <item itemvalue="Application.ExpValidCheck" />
-        <item itemvalue="Application.StackEx1" />
+        <item itemvalue="Application.Person2Ex1" />
+        <item itemvalue="Application.Bingo" />
+        <item itemvalue="Application.ComparatorEx" />
+        <item itemvalue="Application.ArraysEx" />
+        <item itemvalue="Application.MyVector2Test" />
       </list>
     </recent_temporary>
   </component>
@@ -212,7 +222,15 @@
       <option name="project" value="LOCAL" />
       <updated>1703039803747</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Collection Framework #2">
+      <option name="closed" value="true" />
+      <created>1703139041831</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1703139041831</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -230,7 +248,8 @@
     <MESSAGE value="first commit &amp; push" />
     <MESSAGE value="first" />
     <MESSAGE value="Collection Framework" />
-    <option name="LAST_COMMIT_MESSAGE" value="Collection Framework" />
+    <MESSAGE value="Collection Framework #2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Collection Framework #2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
