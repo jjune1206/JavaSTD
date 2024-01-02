@@ -5,15 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a0b2d7d4-646a-4d49-a270-df5719fc31a4" name="Changes" comment="Collection Framework #2">
-      <change afterPath="$PROJECT_DIR$/src/ch11/ArraysEx.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch11/Bingo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch11/ComparatorEx.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch11/IteratorEx2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch11/ListIteratorEx1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch11/MyVector2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch11/MyVector2Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch11/Person2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch11/Person2Ex1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch11/HashMapEx3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch11/TreeSetEx1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch12/FruitBoxEx1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -55,7 +49,7 @@
     <option name="selectedUrlAndAccountId">
       <UrlAndAccount>
         <option name="accountId" value="9f516e3c-61b5-486f-b87c-a38ee97c4475" />
-        <option name="url" value="git@github.com:/jjune1206/JavaSTD.git" />
+        <option name="url" value="https://github.com/jjune1206/JavaSTD.git" />
       </UrlAndAccount>
     </option>
   </component>
@@ -77,6 +71,8 @@
     "Application.Bingo.executor": "Run",
     "Application.ComparatorEx.executor": "Run",
     "Application.ExpValidCheck.executor": "Run",
+    "Application.FruitBoxEx1.executor": "Run",
+    "Application.HashMapEx3.executor": "Run",
     "Application.IteratorEx1.executor": "Run",
     "Application.IteratorEx2.executor": "Run",
     "Application.ListIteratorEx1.executor": "Run",
@@ -86,6 +82,7 @@
     "Application.PriorityQueueEx.executor": "Run",
     "Application.QueueEx1.executor": "Run",
     "Application.StackEx1.executor": "Run",
+    "Application.TreeSetEx1.executor": "Run",
     "Application.VarEx1.executor": "Run",
     "Application.VarEx2.executor": "Run",
     "Application.VectorEx1.executor": "Run",
@@ -98,20 +95,7 @@
     "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Person2Ex1">
-    <configuration name="ArraysEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ch11.ArraysEx" />
-      <module name="JavaSTD" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ch11.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.FruitBoxEx1">
     <configuration name="Bingo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ch11.Bingo" />
       <module name="JavaSTD" />
@@ -125,12 +109,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ComparatorEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ch11.ComparatorEx" />
+    <configuration name="FruitBoxEx1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ch12.FruitBoxEx1" />
       <module name="JavaSTD" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ch11.*" />
+          <option name="PATTERN" value="ch12.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -138,8 +122,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyVector2Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ch11.MyVector2Test" />
+    <configuration name="HashMapEx3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ch11.HashMapEx3" />
       <module name="JavaSTD" />
       <extension name="coverage">
         <pattern>
@@ -164,13 +148,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TreeSetEx1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ch11.TreeSetEx1" />
+      <module name="JavaSTD" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ch11.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FruitBoxEx1" />
+        <item itemvalue="Application.HashMapEx3" />
+        <item itemvalue="Application.TreeSetEx1" />
         <item itemvalue="Application.Person2Ex1" />
         <item itemvalue="Application.Bingo" />
-        <item itemvalue="Application.ComparatorEx" />
-        <item itemvalue="Application.ArraysEx" />
-        <item itemvalue="Application.MyVector2Test" />
       </list>
     </recent_temporary>
   </component>
@@ -230,7 +227,15 @@
       <option name="project" value="LOCAL" />
       <updated>1703139041831</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Collection Framework #2">
+      <option name="closed" value="true" />
+      <created>1703235120467</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1703235120467</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
