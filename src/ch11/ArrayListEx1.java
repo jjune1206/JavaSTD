@@ -3,8 +3,12 @@ package ch11;
 import java.util.*;
 public class ArrayListEx1 {
     public static void main(String[] args) {
+        // 기본길이(용량, capacity)가 10인 ArrayList를 생성
         ArrayList list1 = new ArrayList(10);
-        list1.add(new Integer(5));
+        // ArrayList에는 객체만 저장가능
+        // autoboxing에 의해 기본형이 참조형으로 자동 반환
+        list1.add(5);
+        //list1.add(new Integer(5));
         list1.add(new Integer(4));
         list1.add(new Integer(2));
         list1.add(new Integer(0));
